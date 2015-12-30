@@ -16,7 +16,7 @@ var assert = chai.assert;
 
 // TESTS //
 
-describe( '', function tests() {
+describe( 'readTableSync', function tests() {
 
 	it( 'should export a function', function test() {
 		expect( readtable ).to.be.a( 'function' );
