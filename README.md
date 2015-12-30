@@ -96,7 +96,10 @@ var out;
 */
 
 /*
-	Without specifying a custom quotemark, an error would be thrown as the third row contains more commas than the rest. However, correctly specifying the quotemark results in the last comma being escaped as it is placed inside a quotation. 
+	Without specifying a custom quotemark, an error would be thrown
+	as the third row contains more commas than the rest.
+	However, correctly specifying the quotemark
+	results in the last comma being escaped as it is placed inside a quotation. 
 */
 out = readTable( __dirname + '/data.csv', {
 	'quotemark': '\''
